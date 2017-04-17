@@ -2,13 +2,24 @@
   "name": "editor",
   "version": "0.1.0",
   "description": "A content markup language notebook editor for the 21st century.",
-  "main": "./main.js",
+  "main": "app/main.js",
   "scripts": {
     "start": "electron .",
+    "build": "electron-packager . Editor"
   },
+  "repository": "https://github.com/lukejanicke/editor",
+  "keywords": [
+    "Electron",
+    "editor",
+    "Content Markup Language",
+    "ContentML",
+    "CML"
+  ],
   "author": "Luke Janicke",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^1.6.2"
+    "electron": "^1.6.2",
+    "electron-packager": "^8.6.0",
+    "typings": "^2.1.1"
   }
 }
