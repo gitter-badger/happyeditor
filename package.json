@@ -1,7 +1,20 @@
 {
-  "name": "editor",
+  "name": "happyeditor",
   "version": "0.1.0",
-  "description": "A content markup language notebook editor for the 21st century.",
+  "description": "A ContentML editor for the 21st century.",
+  "author": {
+    "name": "Luke Janicke",
+    "email": "luke@lukejanicke.com"
+  },
+  "keywords": [
+    "Content Markup Language",
+    "ContentML",
+    "CML",
+    "electron",
+    "typescript",
+    "angular",
+    "sass"
+  ],
   "main": "app/main.js",
   "scripts": {
     "start": "electron .",
@@ -15,7 +28,6 @@
     "ContentML",
     "CML"
   ],
-  "author": "Luke Janicke",
   "license": "MIT",
   "devDependencies": {
     "electron": "^1.6.2",
